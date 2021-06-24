@@ -1,15 +1,12 @@
 .cover {
-    width: calc(100vw - 48px * 2);
-    background-image: url("../../images/cover-trains.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: calc(100vw - 48px * 2);   
     padding: 92px 48px 0 48px;
-    height: calc((100vw - 48px * 2) * 0.625);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
    .cover {
+     width: 100%;
      padding: 92px 0 0 0;
    }
 }
