@@ -1,0 +1,8 @@
+.cover__overlay {
+    width: calc(100vw - 48px * 2);
+    background-image: url("../../images/cover-trains.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: calc((100vw - 48px * 2) * 0.625);
+}
