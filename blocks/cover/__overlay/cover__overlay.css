@@ -1,14 +1,13 @@
 .cover__overlay {
   width: calc(100vw - 48px * 2);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
   height: calc((100vw - 48px * 2) * 0.625);
-  opacity: 0;
   position: absolute;
   z-index: 2;
 }
 
 .cover__overlay:hover {
-  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
   
 @media screen and (max-width: 1024px) {
