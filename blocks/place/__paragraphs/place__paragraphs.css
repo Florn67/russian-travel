@@ -4,22 +4,22 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraphs {
-    margin-left: 32px;
-    max-width: calc(100% - 48% - 32px);
-  }
+    .place__paragraphs {
+        margin-left: 32px;
+        max-width: calc(100% - 48% - 32px);
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs {
-    margin-left: 28px;
-    max-width: calc(100% - 49% - 28px);
-  }
+    .place__paragraphs {
+        margin-left: 28px;
+        max-width: calc(100% - 49% - 28px);
+    }
 }
 
 @media screen and (max-width: 425px) {
-  .place__paragraphs {
-    margin: 32px 16px 0 16px;
-    max-width: 100%;
-  }
+    .place__paragraphs {
+        margin: 32px 16px 0 16px;
+        max-width: 100%;
+    }
 }

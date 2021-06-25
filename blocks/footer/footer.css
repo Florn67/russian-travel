@@ -1,17 +1,17 @@
 .footer {
-  display: flex;
-  padding: 92px 48px 24px 48px;
+    display: flex;
+    padding: 92px 48px 24px 48px;
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
-    padding: 92px 24px 24px 24px;
-  }
+    .footer {
+        padding: 92px 24px 24px 24px;
+    }
 }
 
 @media screen and (max-width: 425px) {
-  .footer {
-    padding: 64px 118px 24px 16px;
-    flex-direction: column;
-  }
+    .footer {
+        padding: 64px 118px 24px 16px;
+        flex-direction: column;
+    }
 }
