@@ -1,15 +1,19 @@
 .cover__background {
-    position: absolute;
-    width: calc(100% - 96px);
-    height: calc((100vw - 48px * 2) * 0.625);
+    text-decoration: none;
+    width: 100%;
+    min-height: calc((100vw - 48px * 2) * 0.625);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc((100vw - 96px) * 0.625);  
 }
 
 @media screen and (max-width: 1024px) {
     .cover__background {
         width: 100%;
-        height: calc(100vw * 0.625);
+        min-height: calc(100vw * 0.625);
     }
 }

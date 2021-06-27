@@ -9,7 +9,7 @@
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .place {
         padding-bottom: 72px;
     }

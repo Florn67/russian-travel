@@ -1,12 +1,7 @@
 .cover {
     width: 100%;
     padding: 92px 48px 0 48px;
-    text-decoration: none;
     box-sizing: border-box;
-}
-
-.cover:hover .cover__overlay{
-    opacity: 0.6;
 }
 
 @media screen and (max-width: 1024px) {
